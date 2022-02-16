@@ -2,7 +2,7 @@
 Throwaway container to help me debug django smtp with Exchange 2013
 
 # Set up
-docker run -it --rm -p 8000:8000 riazarbi/docker-django:latest
+`docker run -it --rm -p 8000:8000 riazarbi/docker-django:latest`
 
 # Some config
 `nano app/settings.py`
@@ -30,6 +30,6 @@ EMAIL_HOST_PASSWORD = "REDACTED"
 ```
 
 # some commands
-python manage.py shell
-from django.core.mail import send_mail
-send_mail('subject', 'message', 'FROMREDACTED', ['TOREDACTED'], fail_silently=False,)
+`python manage.py shell`
+`from django.core.mail import send_mail`
+`send_mail('subject', 'message', 'FROMREDACTED', ['TOREDACTED'], fail_silently=False,)`
