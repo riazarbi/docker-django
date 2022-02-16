@@ -30,6 +30,6 @@ EMAIL_HOST_PASSWORD = "REDACTED"
 ```
 
 # some commands
-`python manage.py shell`
-`from django.core.mail import send_mail`
-`send_mail('subject', 'message', 'FROMREDACTED', ['TOREDACTED'], fail_silently=False,)`
+`python manage.py shell`  
+`from django.core.mail import send_mail`  
+`send_mail('subject', 'message', 'FROMREDACTED', ['TOREDACTED'], fail_silently=False,)`  
