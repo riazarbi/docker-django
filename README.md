@@ -1,6 +1,9 @@
 # docker-django
 Throwaway container to help me debug django smtp with Exchange 2013
 
+# Set up
+docker run -it --rm -p 8000:8000 riazarbi/docker-django:latest
+
 # Some config
 `nano app/settings.py`
 
